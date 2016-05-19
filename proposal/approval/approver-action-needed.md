@@ -1,4 +1,3 @@
-[#ftl]
 Subject: [Summit] Approval Needed for Proposal ${proposal.identifier}
 
 [@wrap]
