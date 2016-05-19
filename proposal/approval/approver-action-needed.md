@@ -22,7 +22,7 @@ ${proposal.fullTitle}
   [@compress single_line=true]
   [#list proposal.coInvestigators as investigator]
   ${investigator.reverseDisplayName?upper_case}[#sep];
-  [#else](none)
+  [#else] N/A
   [/#list]
   [/@compress]
   [/@wrap]
