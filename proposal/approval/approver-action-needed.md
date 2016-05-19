@@ -1,7 +1,7 @@
 Subject: [Summit] Approval Needed for Proposal ${proposal.identifier}
 
 <@wrap>
-Proposal ${proposal.identifier} awaits your kind and most generous approval for submission to the sponsor.
+Proposal ${proposal.identifier} awaits your approval for submission to the sponsor.
 </@wrap>
 
 Please sign in to Summit to review this proposal.
