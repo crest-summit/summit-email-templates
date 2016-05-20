@@ -8,7 +8,7 @@ Please sign in to Summit to review this proposal.
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle}
+${proposal.fullTitle!"Untitled Proposal"}
 [/@wrap]
 
 * Deadline: 
