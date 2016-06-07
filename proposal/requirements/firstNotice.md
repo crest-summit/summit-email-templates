@@ -9,7 +9,7 @@ Please review the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/
 [/@wrap]
 
 [@wrap]
-Please sign in to Summit to access this proposal, to communicate with your Pre Award Associate, and to complete the outstanding requirements to ensure the proposal is submitted.
+Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.
 [/@wrap]
 
 ------------------------------------------------------------------------
