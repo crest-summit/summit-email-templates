@@ -1,17 +1,14 @@
-Subject: [Summit] PHS Email for ${proposal.identifier}
+Subject: [Summit] PHS Notice for ${proposal.identifier}
 
 [@wrap]
-This email contains important information and instructions related to the submission of your upcoming proposal ${proposal.identifier}; please read this message in its entirety.
+${proposal.principalInvestigator.displayName},
+[/@wrap]
+
+[@wrap]
+**You are receiving this notice because the following proposal involves Public Health Service (PHS) or PHS flow-through funds. This notice contains important information and instructions related to the submission of your upcoming proposal ${proposal.identifier}; please read this message in its entirety.**
 [/@wrap]
 
 ------------------------------------------------------------------------
-[@wrap]
-${proposal.principalInvestigator.reverseDisplayName?upper_case},
-[/@wrap]
-
-[@wrap]
-You are receiving this email because the following proposal involves Public Health Service (PHS) or PHS flow-through funds.
-[/@wrap]
 
 [@wrap] ${proposal.fullTitle!"Untitled Proposal"} [/@wrap]
 
@@ -33,11 +30,11 @@ Before your proposal can be submitted to the sponsoring agency, current and comp
 [/@wrap]
 
 [@wrap]
-To help you meet the deadlines outlined in the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder emails two business days before your proposal’s target due date.
+To help you meet the deadlines outlined in the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal’s target due date.
 [/@wrap]
 
 [@wrap]
-Please login to Summit to communicate with the assigned Pre Award Associate for this proposal, should you have questions or need assistance with this proposal.
+**Please login to Summit to communicate with the assigned Pre Award Associate for this proposal, should you have questions or need assistance with this proposal.**
 [/@wrap]
 
 ------------------------------------------------------------------------
