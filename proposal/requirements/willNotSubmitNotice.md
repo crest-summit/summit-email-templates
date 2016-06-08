@@ -15,7 +15,11 @@ Per the [OSP Proposal Submission Policy & Guidelines] (http://osp.vt.edu/sites/o
 [/@wrap]
 
 [@wrap]
-Since all requirements have not been fulfilled, this proposal is now **OVERDUE** and **WILL NOT BE SUBMITTED.**
+**Since all requirements have not been fulfilled, this proposal is now OVERDUE and *WILL NOT BE SUBMITTED.**
+[/@wrap]
+
+[@wrap]
+Please contact John Rudd (ruddj@vt.edu) or Lauren Magruder (lmagrude@vt.edu) if you have questions.
 [/@wrap]
 
 ---------------------------------------------------------------------
