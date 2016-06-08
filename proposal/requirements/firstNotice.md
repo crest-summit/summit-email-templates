@@ -10,7 +10,7 @@ ${proposal.fullTitle!"Untitled Proposal"}
 [/@wrap]
 
 * Principal Investigator:
-  ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+  ${proposal.principalInvestigator.displayName}
 * Target Date: 
   ${proposal.targetDate} 
 * Sponsor Deadline: 
@@ -32,7 +32,7 @@ Please review the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/
 [/@wrap]
 
 [@wrap]
-Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.
+**Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.**
 [/@wrap]
 
 ------------------------------------------------------------------------
