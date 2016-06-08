@@ -1,7 +1,7 @@
 Subject: [Summit] Action Required for Submission of Proposal ${proposal.identifier}
 
 [@wrap]
-Proposal ${proposal.identifier} has outstanding requirements, preventing submission.
+**Proposal ${proposal.identifier} has outstanding requirements, preventing submission.**
 [/@wrap]
 
 ------------------------------------------------------------------------
