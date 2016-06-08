@@ -13,8 +13,10 @@ ${proposal.principalInvestigator.reverseDisplayName?upper_case},
 You are receiving this email because the following proposal involves Public Health Service (PHS) or PHS flow-through funds.
 [/@wrap]
 
-* Proposal Full Title: 
-  ${proposal.fullTitle!"Untitled Proposal"}
+[@wrap] ${proposal.fullTitle!"Untitled Proposal"} [/@wrap]
+
+* Proposal Label: 
+  ${proposal.name}
 * Sponsor:
   ${proposal.sponsor.name} 
 * Prime Sponsor:
