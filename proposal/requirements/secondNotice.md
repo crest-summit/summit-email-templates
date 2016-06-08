@@ -1,7 +1,7 @@
 Subject: [Summit] Action Required for Submission of Proposal ${proposal.identifier}
 
 [@wrap]
-Proposal ${proposal.identifier} has outstanding requirements, preventing submission.
+**Proposal ${proposal.identifier} has outstanding requirements, preventing submission.**
 [/@wrap]
 
 ------------------------------------------------------------------------
@@ -10,7 +10,7 @@ ${proposal.fullTitle!"Untitled Proposal"}
 [/@wrap]
 
 * Principal Investigator:
-  ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+  ${proposal.principalInvestigator.displayName}
 * Deadline: 
   ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 * Proposal Label: 
@@ -30,7 +30,7 @@ Please review the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/
 [/@wrap]
 
 [@wrap]
-Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.
+**Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.**
 [/@wrap]
 
 ------------------------------------------------------------------------
