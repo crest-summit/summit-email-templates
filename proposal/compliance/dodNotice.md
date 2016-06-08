@@ -25,10 +25,6 @@ ${proposal.principalInvestigator.displayName},
 Please be advised that DoD funded research agreements are reviewed by the Office of Export and Secure Research Compliance (OESRC) due to the high risk of intersection with export control laws, particularly the International Traffic in Arms Regulations (ITAR).  Numerous criteria must be met to ensure that your project is unrestricted/fundamental research.  
 [/@wrap]
 
-[@wrap]
-Before your proposal can be submitted to the sponsoring agency, current and complete documentation regarding FCOI must be received by OSP. This federal requirement applies to all investigators and external entities, both paid and unpaid, including but not limited to VT faculty & staff, collaborators, subcontractors, and consultants.  If you anticipate having external entities working on the proposed project (even if they will not be receiving funding support from the sponsor) please notify your Pre Award Associate immediately.   
-[/@wrap]
-
 ------------------------------------------------------------------------
 
 [@wrap]
