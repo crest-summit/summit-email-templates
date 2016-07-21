@@ -12,14 +12,14 @@ ${proposal.principalInvestigator.displayName},
 
 [@wrap] ${proposal.fullTitle!"Untitled Proposal"} [/@wrap]
 
-* Proposal Label: 
+* Proposal Label:
   ${proposal.name}
 * Sponsor:
-  ${proposal.sponsor.name} 
+  ${proposal.sponsor.name}
 * Prime Sponsor:
-  ${proposal.primeSponsor.name} 
+  [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]NA[/#if]
 * Deadline:
-  ${proposal.deadline} 
+  ${proposal.deadline?date}
 
 [@wrap]
 Please be advised that NASA funded research agreements are reviewed by the Office of Export and Secure Research Compliance (OESRC) due to the high risk of intersection with export control laws, particularly the International Traffic in Arms Regulations (ITAR).  Numerous criteria must be met to ensure that your project is unrestricted/fundamental research.
@@ -40,7 +40,7 @@ Please be advised that NASA funded research agreements are reviewed by the Offic
 ------------------------------------------------------------------------
 
 [@wrap]
-If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC] (http://www.oesrc.researchcompliance.vt.edu/Contacts/) directly. 
+If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC] (http://www.oesrc.researchcompliance.vt.edu/Contacts/) directly.
 [/@wrap]
 
 ------------------------------------------------------------------------
