@@ -10,7 +10,7 @@ ${proposal.principalInvestigator.displayName},
 
 ------------------------------------------------------------------------
 
- ${proposal.fullTitle!"Untitled Proposal"} [/@wrap]
+ ${proposal.fullTitle!"Untitled Proposal"}
 
 * Proposal Label:
   ${proposal.name}
