@@ -30,7 +30,7 @@ Please be advised that NASA funded research agreements are reviewed by the Offic
 [@wrap]
 **ACTION REQUIRED:**  
 
-* Review the [Attachment B: Memo to Faculty Proposing Research Funded by NASA] (http://oesrc.researchcompliance.vt.edu/sites/oesrc.researchcompliance.vt.edu/files/attachment_b_nasa_memo.pdf)
+* Review the [Attachment B: Memo to Faculty Proposing Research Funded by NASA](http://oesrc.researchcompliance.vt.edu/sites/oesrc.researchcompliance.vt.edu/files/attachment_b_nasa_memo.pdf)
 * Login to Summit and answer the following question in the OESRC compliance subsection of proposal ${proposal.identifier}
     * As defined in the OESRC Attachment B, Is this Fundamental Research?
 
