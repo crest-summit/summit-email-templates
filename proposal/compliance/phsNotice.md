@@ -22,7 +22,7 @@ ${proposal.principalInvestigator.displayName},
   ${proposal.deadline?date}
 
 [@wrap]
-As required by federal PHS regulations and [VT Conflict of Interest policy #13010] (http://www.policies.vt.edu/13010.pdf), all financial conflicts of interests (FCOI) must be disclosed before a PHS or PHS flow-through funded proposal can be submitted to the sponsor.  Policy 13010 also addresses the requirement for all investigators to complete training on Conflict of Interest and provide 3rd Party Travel Reimbursement Disclosures prior to the award of a grant or contract.  
+As required by federal PHS regulations and [VT Conflict of Interest policy #13010](http://www.policies.vt.edu/13010.pdf), all financial conflicts of interests (FCOI) must be disclosed before a PHS or PHS flow-through funded proposal can be submitted to the sponsor.  Policy 13010 also addresses the requirement for all investigators to complete training on Conflict of Interest and provide 3rd Party Travel Reimbursement Disclosures prior to the award of a grant or contract.  
 [/@wrap]
 
 [@wrap]
@@ -30,7 +30,7 @@ Before your proposal can be submitted to the sponsoring agency, current and comp
 [/@wrap]
 
 [@wrap]
-To help you meet the deadlines outlined in the [Proposal Submission Policy & Guildelines] (http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal’s target due date.
+To help you meet the deadlines outlined in the [Proposal Submission Policy & Guildelines](http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal’s target due date.
 [/@wrap]
 
 [@wrap]
