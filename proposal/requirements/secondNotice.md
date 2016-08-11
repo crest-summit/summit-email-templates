@@ -29,7 +29,7 @@ Please review the [Proposal Submission Procedure & Guildelines] (http://osp.vt.e
 
 
 
-**Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate, and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.**
+**Please sign in to Summit to access this proposal, communicate with your Pre-Award Associate and complete the outstanding requirements to ensure that this proposal is submitted in a timely manner.**
 
 
 ------------------------------------------------------------------------
