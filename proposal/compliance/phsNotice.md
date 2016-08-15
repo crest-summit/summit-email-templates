@@ -33,7 +33,7 @@ To help you meet the deadlines outlined in the [Proposal Submission Policy & Gui
 
 
 
-**Please login to Summit to communicate with the assigned Pre Award Associate for this proposal, should you have questions or need assistance with this proposal.**
+**Please login to Summit (summit.vt.edu) to communicate with the assigned Pre Award Associate for this proposal, should you have questions or need assistance with this proposal.**
 
 
 ------------------------------------------------------------------------
