@@ -4,7 +4,7 @@ Subject: [Summit] Approval Needed for Proposal ${proposal.identifier}
 Proposal ${proposal.identifier} awaits your approval for submission to the sponsor.
 [/@wrap]
 
-Please sign in to Summit to review this proposal.
+Please sign in to Summit (summit.vt.edu) to review this proposal.
 
 ------------------------------------------------------------------------
 [@wrap]
