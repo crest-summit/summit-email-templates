@@ -31,9 +31,9 @@ Please be advised that DoD funded research agreements are reviewed by the Office
 **ACTION REQUIRED:**  
 
 * Review the [Attachment A: Memo to Faculty Proposing Research Funded by DoD](https://oesrc.researchcompliance.vt.edu/sites/oesrc.researchcompliance.vt.edu/files/attachment_a_dod_memo.pdf)
-* Login to Summit (summit.vt.edu) and answer the following questions in the OESRC compliance subsection of proposal ${proposal.identifier}
-    * As defined in the OESRC Attachment A, Is this Fundamental Research?
-    * Would you like to include the "dual use" developmental items language?
+Login to Summit (summit.vt.edu) and answer the following questions in the OESRC compliance subsection of proposal ${proposal.identifier}
+ - As defined in the OESRC Attachment A, Is this Fundamental Research?
+If you like to include the "dual use" developmental items language described in Attachment A, either add a requirement to the OESRC Requirements section to Include Dual Use Language in Cover Letter or make a comment in Summit requesting it.
 
 
 ------------------------------------------------------------------------
