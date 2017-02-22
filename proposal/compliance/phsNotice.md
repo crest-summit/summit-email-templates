@@ -17,11 +17,11 @@ ${proposal.principalInvestigator.displayName},
 * Deadline:
   ${proposal.deadline?date}
 
-As required by federal PHS regulations and [VT Conflict of Interest policy #13010](http://www.policies.vt.edu/13010.pdf), all financial conflicts of interests (FCOI) must be disclosed before a PHS or PHS flow-through funded proposal can be submitted to the sponsor.  Policy 13010 also addresses the requirement for all investigators to complete training on Conflict of Interest and provide 3rd Party Travel Reimbursement Disclosures prior to the award of a grant or contract.  
+As required by federal PHS regulations and [VT Conflict of Interest policy #13010](http://www.policies.vt.edu/13010.pdf), all financial conflicts of interest (FCOI) must be disclosed before a PHS or PHS flow-through funded proposal can be submitted to the sponsor.  Policy 13010 also addresses the requirement for all investigators to complete training on Conflict of Interest and provide Third-Party Travel Reimbursement Disclosures prior to the award of a grant or contract.  
 
-Before your proposal can be submitted to the sponsoring agency, current and complete documentation regarding FCOI must be received by OSP. This federal requirement applies to all investigators and external entities, both paid and unpaid, including but not limited to VT faculty & staff, collaborators, subcontractors, and consultants.  If you anticipate having external entities working on the proposed project (even if they will not be receiving funding support from the sponsor) please notify your Pre Award Associate immediately.   
+Before your proposal can be submitted to the sponsoring agency, current and complete documentation regarding FCOI must be received by OSP. This federal requirement applies to all investigators and external entities, both paid and unpaid, including but not limited to VT faculty and staff, collaborators, subcontractors, and consultants.  If you anticipate having external entities working on the proposed project (even if they will not be receiving funding support from the sponsor) please notify your Pre-Award Associate immediately.   
 
-To help you meet the deadlines outlined in the [Proposal Submission Policy & Guildelines](http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal's due date.
+To help you meet the deadlines outlined in the [Proposal Submission Policy and Guildelines](http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal's due date.
 
 **Please login to Summit (summit.vt.edu) to communicate with the assigned Pre-Award Associate for this proposal, should you have questions or need assistance with this proposal.**
 
