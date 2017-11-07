@@ -1,16 +1,14 @@
-Subject: [Summit] Proposal ${proposal.identifier} has been Returned for Correction By ${proposal.authority}
+Subject: [Summit] Proposal ${proposal.identifier} has had Routing Canceled By ${proposal.authority}
 
 [@wrap]
-Proposal ${proposal.identifier} was returned for correction by ${proposal.authority} for the following reason:
+Proposal ${proposal.identifier} has had routing canceled by ${proposal.authority} for the following reason:
 [/@wrap]
 
 [@wrap]
 ${proposal.dispositionComment}
 [/@wrap]
 
-Proposal Team: Please sign in to Summit (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
-
-Approvers: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
+Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
 
 ------------------------------------------------------------------------
 [@wrap]

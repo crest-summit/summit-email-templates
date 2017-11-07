@@ -8,9 +8,7 @@ Proposal ${proposal.identifier} has had routing canceled by ${proposal.authority
 ${proposal.dispositionComment}
 [/@wrap]
 
-Proposal Team: Please sign in to Summit (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
-
-Approvers: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
+Note: Please sign in to Summit (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
 
 ------------------------------------------------------------------------
 [@wrap]
