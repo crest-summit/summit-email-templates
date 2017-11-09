@@ -1,4 +1,4 @@
-[<#if isApprover != 'true'>]
+[#if isApprover != 'true']
 
 [#-- ------Place Proposal Team and Support Team Template Here--------- --]
 
@@ -39,7 +39,7 @@ ${proposal.fullTitle!"Untitled Proposal"}
 This message is system generated.
 Please do not reply.
 
-[<#else>]
+[#else]
 
 [#-- ------Place Approver Template Here------------------------------- --]
 
@@ -81,4 +81,4 @@ This message is system generated.
 Please do not reply.
 
 
-[</#if>]
+[/#if]
