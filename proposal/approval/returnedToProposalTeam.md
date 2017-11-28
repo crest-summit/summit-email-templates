@@ -4,7 +4,7 @@ Subject: [Summit] Proposal ${proposal.identifier} has been Returned for Correcti
 Proposal ${proposal.identifier} was returned for correction by ${proposal.approval.disposition.authority.displayName} for the following reason: "${proposal.approval.disposition.comment}"
 [/@wrap]
 
-[#if isApprover != 'true']
+[#if isApprover != true]
 Note: Please sign in to Summit (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
 [#else]
 Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
