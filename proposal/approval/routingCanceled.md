@@ -5,7 +5,7 @@ Proposal ${proposal.identifier} has had routing canceled by ${proposal.approval.
 [/@wrap]
 
 [#if isApprover != 'true']
-Note: Please sign in to Summit (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
+Note: Please sign in to [Summit (summit.vt.edu)](summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
 [#else]
 Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
 [/#if]
