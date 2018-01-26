@@ -2,7 +2,7 @@ Subject: [Summit] IRB Notice for ${proposal.identifier}
 
 You are receiving this notice because proposal ${proposal.identifier} may involve IRB.
 
-* Proposal Type: ${proposal.activityType}
+* Type of Work: ${proposal.activityType}
 * Proposal Label: ${proposal.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName}
 * Submitting Organization: ${proposal.submittingOrganization.name}
