@@ -1,15 +1,15 @@
-Subject: [Summit] Proposal ${proposal.identifier} has had the Approval Discarded
+Subject: [Summit] Proposal ${proposal.identifier} Approval Discarded
 
 [#if isApprover != true]
 **To Proposal Team Members & Staff:**
 
-Proposal ${proposal.identifier} has had the approval discarded by ${proposal.approval.disposition.authority.displayName} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} discarded approval of proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
 Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
 [#else]
 **To Approvers:**
 
-Proposal ${proposal.identifier} has had the approval discarded by ${proposal.approval.disposition.authority.displayName} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} discarded approval of proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
 Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
 [/#if]

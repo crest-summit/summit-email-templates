@@ -1,15 +1,15 @@
-Subject: [Summit] Proposal ${proposal.identifier} has had Routing Canceled
+Subject: [Summit] Proposal ${proposal.identifier} Routing Canceled
 
 [#if isApprover != true]
 **To Proposal Team Members & Staff:**
 
-Proposal ${proposal.identifier} has had routing canceled by ${proposal.approval.disposition.authority.displayName} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} canceled routing of proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
 Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
 [#else]
 **To Approvers:**
 
-Proposal ${proposal.identifier} has had routing canceled by ${proposal.approval.disposition.authority.displayName} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} canceled routing of proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
 Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
 [/#if]
