@@ -11,7 +11,7 @@ You are receiving this notice because proposal ${proposal.identifier} involves s
 * Is there a solicitation?: ${proposal.opportunity.solicitation} 
 * Is there a master agreement?: ${proposal.hasMasterAgreement} 
 * Is this a limited submission?: ${proposal.opportunity.limitedSubmission} 
-* Is this an unauthorized submission?: ${proposal.submission.unauthorized} 
+* Is this an unauthorized submission?: ${proposal.submission.unauthorized?string('Yes', 'No')} 
 
 Please sign in to [Summit] (summit.vt.edu) (summit.vt.edu) to review this proposal. 
 
