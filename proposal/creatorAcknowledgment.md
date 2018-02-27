@@ -11,7 +11,7 @@ Proposal ${proposal.identifier} has been initiated.
 * Principal Investigator:
   ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
-You may sign in to Summit (summit.vt.edu) to access this proposal.
+You may sign in to [Summit](summit.vt.edu) (summit.vt.edu) to access this proposal.
 
 ------------------------------------------------------------------------
 This message is system generated.
