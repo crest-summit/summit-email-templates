@@ -1,0 +1,1 @@
+This is the default email template for document uploads.
