@@ -15,5 +15,6 @@ The following question "Does the work involve human subjects research (e.g., sur
 Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this proposal.
 
 ------------------------------------------------------------------------
-This message is system generated.
-Please do not reply.
+Please do not reply, this message is system generated.
+
+To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then Manage preferences.

@@ -26,5 +26,6 @@ To help you meet the deadlines outlined in the [Proposal Submission Policy and G
 **Please login to Summit (summit.vt.edu) to communicate with the assigned Pre-Award Associate for this proposal, should you have questions or need assistance with this proposal.**
 
 ------------------------------------------------------------------------
-This message is system generated.
-Please do not reply.
+Please do not reply, this message is system generated.
+
+To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then Manage preferences.
