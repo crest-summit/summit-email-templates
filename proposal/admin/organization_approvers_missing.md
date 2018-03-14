@@ -22,4 +22,4 @@ ${unit.displayName}[#sep];[/#sep]
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
-To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then Manage preferences.
+To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then User Preferences.
