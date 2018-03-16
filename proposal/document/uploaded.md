@@ -11,8 +11,8 @@ ${proposal.fullTitle!"Untitled Proposal"}
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
-*	File name: {File_Name}
-*	Uploaded by: {Uploaded_By_Name}
+* File name: ${document.metadata.name}
+* Uploaded by: ${document.metadata.creator.reverseDisplayName?upper_case}
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
