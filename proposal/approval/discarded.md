@@ -27,12 +27,10 @@ ${proposal.fullTitle!"Untitled Proposal"}
   ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 * Co-Investigators:
   [@wrap left=2 right=72]
-  [@compress single_line=true]
   [#list proposal.coInvestigators as investigator]
   ${investigator.reverseDisplayName?upper_case}[#sep];
   [#else] N/A
   [/#list]
-  [/@compress]
   [/@wrap]
 
 ------------------------------------------------------------------------
