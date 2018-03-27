@@ -1,6 +1,6 @@
 Subject: [Summit] LINK Notice for ${proposal.identifier}
 
-You are receiving this notice because proposal ${proposal.identifier} involves sponsor or prime sponsor associated with the "LINK" keyword.
+You are receiving this notice because ${proposal.activityType} ${proposal.identifier} involves sponsor or prime sponsor associated with the "LINK" keyword.
 
 * Work Label: ${proposal.name}
 * Type of Work: ${proposal.activityType}

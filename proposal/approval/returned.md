@@ -1,27 +1,27 @@
-Subject: [Summit] Proposal ${proposal.identifier} Returned for Correction
+Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Returned for Correction
 
 [#if isApprover != true]
 **To Proposal Team Members & Staff:**
 
-${proposal.approval.disposition.authority.displayName} returned for correction proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} returned for correction work ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
-Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the proposal for review and approvals.
+Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the work for review and approvals.
 [#else]
 **To Approvers:**
 
-${proposal.approval.disposition.authority.displayName} returned for correction proposal ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} returned for correction work ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
-Note: Once the proposal has been routed after corrections have been made, approvers will need to approve the modified version of the original proposal.
+Note: Once the work has been routed after corrections have been made, approvers will need to approve the modified version of the original work.
 [/#if]
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle!"Untitled Proposal"}
+${proposal.fullTitle!"Untitled Work"}
 [/@wrap]
 
 * Deadline:
   ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Proposal Label:
+* Work Label:
   ${proposal.name}
 * Principal Investigator:
   ${proposal.principalInvestigator.reverseDisplayName?upper_case}

@@ -6,9 +6,9 @@ ${proposal.principalInvestigator.displayName},
 
 ------------------------------------------------------------------------
 
- ${proposal.fullTitle!"Untitled Proposal"}
+ ${proposal.fullTitle!"Untitled Work"}
 
-* Proposal Label:
+* Work Label:
   ${proposal.name}
 * Sponsor:
   ${proposal.sponsor.name}

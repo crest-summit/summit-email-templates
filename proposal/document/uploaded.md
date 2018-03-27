@@ -1,13 +1,13 @@
 Subject: [Summit] File Upload Notice for ${proposal.identifier}
 
-You are receiving this notice because a new file has been uploaded to proposal ${proposal.identifier}.
+You are receiving this notice because a new file has been uploaded to ${proposal.activityType} ${proposal.identifier}.
 
 [@wrap]
-${proposal.fullTitle!"Untitled Proposal"}
+${proposal.fullTitle!"Untitled Work"}
 [/@wrap]
 
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Proposal Label: ${proposal.name}
+* Work Label: ${proposal.name}
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 

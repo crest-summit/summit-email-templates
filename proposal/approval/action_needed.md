@@ -1,19 +1,19 @@
-Subject: [Summit] Approval From ${organization.identifier} Needed for Proposal ${proposal.identifier}
+Subject: [Summit] Approval From ${organization.identifier} Needed for ${proposal.activityType} ${proposal.identifier}
 
 [@wrap]
-Proposal ${proposal.identifier} awaits your approval for submission to the sponsor.
+${proposal.activityType} ${proposal.identifier} awaits your approval for submission to the sponsor.
 [/@wrap]
 
-Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this proposal.
+Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle!"Untitled Proposal"}
+${proposal.fullTitle!"Untitled Work"}
 [/@wrap]
 
 * Deadline:
   ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Proposal Label:
+* Work Label:
   ${proposal.name}
 * Principal Investigator:
   ${proposal.principalInvestigator.reverseDisplayName?upper_case}

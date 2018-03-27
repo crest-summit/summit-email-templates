@@ -1,4 +1,4 @@
-Subject: [Summit] No Approvers on Proposal - ${proposal.identifier}
+Subject: [Summit] No Approvers on ${proposal.activityType} - ${proposal.identifier}
 
 [@wrap]
 Proposal ${proposal.identifier}, ${proposal.principalInvestigator.displayName}, ${proposal.name}, ${proposal.sponsor.name} does not have approvers on it. Please verify that the approval chain is correct on this proposal.

@@ -1,10 +1,10 @@
-Subject: [Summit] Proposal ${proposal.identifier} Initiated
+Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Initiated
 
-Proposal ${proposal.identifier} has been initiated.
+${proposal.activityType} ${proposal.identifier} has been initiated.
 
 * Deadline:
   ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Proposal Label:
+* Work Label:
   ${proposal.name}
 * Sponsor:
   ${proposal.sponsor.name}
