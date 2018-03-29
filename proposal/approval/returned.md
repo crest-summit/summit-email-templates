@@ -3,20 +3,20 @@ Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Returned for C
 [#if isApprover != true]
 **To Proposal Team Members & Staff:**
 
-${proposal.approval.disposition.authority.displayName} returned for correction work ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} returned for correction ${proposal.activityType} ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
-Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the work for review and approvals.
+Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
 [#else]
 **To Approvers:**
 
-${proposal.approval.disposition.authority.displayName} returned for correction work ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
+${proposal.approval.disposition.authority.displayName} returned for correction ${proposal.activityType} ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}"
 
-Note: Once the work has been routed after corrections have been made, approvers will need to approve the modified version of the original work.
+Note: Once the ${proposal.activityType} has been routed after corrections have been made, approvers will need to approve the modified version of the original ${proposal.activityType}.
 [/#if]
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle!"Untitled Work"}
+${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
 * Deadline:

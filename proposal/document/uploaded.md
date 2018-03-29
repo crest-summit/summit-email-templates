@@ -3,7 +3,7 @@ Subject: [Summit] File Upload Notice for ${proposal.identifier}
 You are receiving this notice because a new file has been uploaded to ${proposal.activityType} ${proposal.identifier}.
 
 [@wrap]
-${proposal.fullTitle!"Untitled Work"}
+${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
