@@ -8,7 +8,7 @@ Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${propo
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle!"Untitled"}
+Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
 * Deadline:

@@ -16,7 +16,7 @@ Note: Once the ${proposal.activityType} has been routed after corrections have b
 
 ------------------------------------------------------------------------
 [@wrap]
-${proposal.fullTitle!"Untitled"}
+Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
 * Deadline:

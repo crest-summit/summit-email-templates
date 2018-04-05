@@ -9,7 +9,7 @@ ${proposal.fullTitle!"Untitled"}
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 * Work Label: ${proposal.name}
 * Sponsor: ${proposal.sponsor.name}
-* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}  
 
 * File name: ${document.metadata.name}
 * Uploaded by: ${document.metadata.creator.reverseDisplayName?upper_case}

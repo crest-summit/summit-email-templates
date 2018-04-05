@@ -12,7 +12,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 
 The following question "Does the work involve human subjects research (e.g., surveys, observation, lab or clinical research, analysis of existing data/specimens)?" was answered as "Yes".
 
-Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this proposal.
+Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
