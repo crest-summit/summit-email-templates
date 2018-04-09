@@ -1,18 +1,14 @@
 Subject: [Summit] DoD Notice for ${proposal.identifier}
 
-
 ${proposal.principalInvestigator.displayName},
 
-
-
 **You are receiving this notice because the following proposal involves Department of Defense (DoD) or DoD flow-through funds. This notice contains important information and instructions related to the submission of your upcoming proposal ${proposal.identifier}; please read this message in its entirety.**
-
 
 ------------------------------------------------------------------------
 
 [@wrap]
 Full Title: ${proposal.fullTitle!"Untitled"}
-[/@wrap] 
+[/@wrap]
 
 * Work Label:
   ${proposal.name}
