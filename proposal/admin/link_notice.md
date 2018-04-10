@@ -10,7 +10,6 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Prime Sponsor: [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]NA[/#if]
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 
-
 * Is there a solicitation?: ${proposal.opportunity.solicitation}
 * Is there a master agreement?: ${proposal.hasMasterAgreement}
 * Is this a limited submission?: ${proposal.opportunity.limitedSubmission}
