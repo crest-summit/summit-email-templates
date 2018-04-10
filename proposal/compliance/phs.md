@@ -10,14 +10,10 @@ ${proposal.principalInvestigator.displayName},
 Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
-* Work Label:
-  ${proposal.name}
-* Sponsor:
-  ${proposal.sponsor.name}
-* Prime Sponsor:
-  [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]NA[/#if]
-* Deadline:
-  ${proposal.deadline?date}
+* Work Label: ${proposal.name}
+* Sponsor: ${proposal.sponsor.name}
+* Prime Sponsor: [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]NA[/#if]
+* Deadline: ${proposal.deadline?date}
 
 As required by federal PHS regulations and [VT Conflict of Interest policy #13010](http://www.policies.vt.edu/13010.pdf), all financial conflicts of interest (FCOI) must be disclosed before a PHS or PHS flow-through funded proposal can be submitted to the sponsor.  Policy 13010 also addresses the requirement for all investigators to complete training on Conflict of Interest and provide Third-Party Travel Reimbursement Disclosures prior to the award of a grant or contract.  
 

@@ -11,16 +11,15 @@ Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${propo
 Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
-* Deadline:
-  ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Work Label:
-  ${proposal.name}
-* Principal Investigator:
-  ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+* Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
+* Work Label: ${proposal.name}
+* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 * Co-Investigators:
   [@wrap left=2 right=72]
   [#list proposal.coInvestigators as investigator]
   ${investigator.reverseDisplayName?upper_case}[#sep];
+
+  
   [#else] N/A
   [/#list]
   [/@wrap]

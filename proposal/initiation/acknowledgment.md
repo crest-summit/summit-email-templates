@@ -2,14 +2,10 @@ Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Initiated
 
 ${proposal.activityType} ${proposal.identifier} has been initiated.
 
-* Deadline:
-  ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Work Label:
-  ${proposal.name}
-* Sponsor:
-  ${proposal.sponsor.name}
-* Principal Investigator:
-  ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+* Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
+* Work Label: ${proposal.name}
+* Sponsor: ${proposal.sponsor.name}
+* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
 You may sign in to [Summit](summit.vt.edu) (summit.vt.edu) to access this ${proposal.activityType}.
 

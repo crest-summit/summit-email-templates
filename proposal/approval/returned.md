@@ -19,16 +19,15 @@ Note: Once the ${proposal.activityType} has been routed after corrections have b
 Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
-* Deadline:
-  ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
-* Work Label:
-  ${proposal.name}
-* Principal Investigator:
-  ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+* Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
+* Work Label: ${proposal.name}
+* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 * Co-Investigators:
   [@wrap left=2 right=72]
   [#list proposal.coInvestigators as investigator]
   ${investigator.reverseDisplayName?upper_case}[#sep];
+
+  
   [#else] N/A
   [/#list]
   [/@wrap]
