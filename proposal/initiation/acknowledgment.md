@@ -7,6 +7,10 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
+[#if permalinkEnabled == true]
+Your proposal can be accessed here: [${recipientLink}](${recipientLink}  
+[/#if]
+
 You may sign in to [Summit](summit.vt.edu) (summit.vt.edu) to access this ${proposal.activityType}.
 
 ------------------------------------------------------------------------
