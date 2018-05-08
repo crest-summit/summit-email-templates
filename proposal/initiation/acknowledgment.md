@@ -7,7 +7,11 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
-You may sign in to [Summit](summit.vt.edu) (summit.vt.edu) to access this ${proposal.activityType}.
+[#if proposalLink??]
+To access this ${proposal.activityType}, click here $[proposalLink]($proposalLink)
+[#else]
+Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
+[#/if]
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
