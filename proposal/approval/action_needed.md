@@ -4,7 +4,7 @@ Subject: [Summit] Approval From ${organization.identifier} Needed for ${proposal
 ${proposal.activityType} ${proposal.identifier} awaits your approval for submission to the sponsor.
 [/@wrap]
 
-Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
+To access this ${proposal.activityType}'s approval, click [here](${approvalLink}).
 
 ------------------------------------------------------------------------
 [@wrap]

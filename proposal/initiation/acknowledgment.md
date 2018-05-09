@@ -7,7 +7,7 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
-To access this ${proposal.activityType}, click here [${proposalLink}](${proposalLink})
+To access this ${proposal.activityType}, click [here](${proposalLink}).
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
