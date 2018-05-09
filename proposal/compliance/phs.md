@@ -21,7 +21,7 @@ Before your proposal can be submitted to the sponsoring agency, current and comp
 
 To help you meet the deadlines outlined in the [Proposal Submission Policy and Guildelines](http://osp.vt.edu/sites/osp.vt.edu/files/osp-10-01-guidelines-for-timely-proposal-submission.pdf), you will begin receiving reminder notices two business days before your proposal's due date.
 
-**Please login to Summit (summit.vt.edu) to communicate with the assigned Pre-Award Associate for this proposal, should you have questions or need assistance with this proposal.**
+**Please login to [Summit](${proposalLink}) to communicate with the assigned Pre-Award Associate for this ${proposal.activityType}, should you have questions or need assistance with this ${proposal.activityType}.**
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.

@@ -5,7 +5,7 @@ Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Routing Cancel
 
 ${proposal.approval.disposition.authority.displayName} canceled routing of ${proposal.activityType} ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}".
 
-Note: Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
+Note: Please navigate to the ${proposal.activityType} by clicking [here](${proposalLink}) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
 [#else]
 **To Approvers:**
 

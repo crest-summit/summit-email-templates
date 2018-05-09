@@ -13,6 +13,8 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * File name: ${document.metadata.name}
 * Uploaded by: ${document.metadata.creator.reverseDisplayName?upper_case}
 
+To access this ${proposal.activityType}, click [here](${proposalLink}).
+
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
