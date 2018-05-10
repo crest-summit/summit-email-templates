@@ -6,7 +6,7 @@ ${proposal.activityType} ${proposal.identifier} awaits your approval for submiss
 
 [#if approvalLink??]
 To access this ${proposal.activityType}'s approval, click [here](${approvalLink}).
-[else]
+[#else]
 To access this ${proposal.activityType} log in to [summit.vt.edu](summit.vt.edu).
 [/#if]
 
