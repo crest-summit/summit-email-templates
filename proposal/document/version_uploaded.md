@@ -18,6 +18,7 @@ To access this ${proposal.activityType}, click [here](${proposalLink}).
 [#else]
 To access this ${proposal.activityType}, log in to [summit.vt.edu](summit.vt.edu).
 [/#if]
+
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
