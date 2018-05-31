@@ -19,11 +19,11 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [#else] N/A
   [/#list]
   [/@wrap]
- 
-  [#if approvalLink??]
-  To access this ${proposal.activityType}'s approval, click [here](${approvalLink}).
+
+  [#if proposalLink??]
+  You can access this ${proposal.activityType} by clicking [here](${proposalLink}).
   [#else]
-  To access this ${proposal.activityType} log in to [summit.vt.edu](summit.vt.edu).
+  To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
   [/#if]
 
 ------------------------------------------------------------------------

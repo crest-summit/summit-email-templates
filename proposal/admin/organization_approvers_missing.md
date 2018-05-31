@@ -4,7 +4,11 @@ Subject: [Summit] No Approvers on ${proposal.activityType} - ${proposal.identifi
 Proposal ${proposal.identifier}, ${proposal.principalInvestigator.displayName}, ${proposal.name}, ${proposal.sponsor.name} does not have approvers on it. Please verify that the approval chain is correct on this proposal.
 [/@wrap]
 
-To access this ${proposal.activityType}, click [here](${proposalLink}).
+[#if proposalLink??]
+You can access this ${proposal.activityType} by clicking [here](${proposalLink}).
+[#else]
+To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
+[/#if]
 
 ------------------------------------------------------------------------
 

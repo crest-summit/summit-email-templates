@@ -7,7 +7,11 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
-To access this ${proposal.activityType}, click [here](${proposalLink}).
+[#if proposalLink??]
+You can access this ${proposal.activityType} by clicking [here](${proposalLink}).
+[#else]
+To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
+[/#if]
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.

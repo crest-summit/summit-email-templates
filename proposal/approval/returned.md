@@ -5,7 +5,12 @@ Subject: [Summit] ${proposal.activityType} ${proposal.identifier} Returned for C
 
 ${proposal.approval.disposition.authority.displayName} returned for correction ${proposal.activityType} ${proposal.identifier} for the following reason: "${proposal.approval.disposition.comment}".
 
+[#if proposalLink??]
 Note: Please navigate to the ${proposal.activityType} by clicking [here](${proposalLink}) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
+[#else]
+Note: Please navigate to the ${proposal.activityType} by going to [summit.vt.edu](summit.vt.edu) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
+[/#if]
+
 [#else]
 **To Approvers:**
 
