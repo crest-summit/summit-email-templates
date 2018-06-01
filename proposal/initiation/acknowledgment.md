@@ -8,7 +8,7 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
 
 [#if proposalLink??]
-You can access this ${proposal.activityType} by clicking [HERE](${proposalLink}).
+Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType}.
 [#else]
 To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
 [/#if]

@@ -20,7 +20,7 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [/#list]
   [/@wrap]
 
-  [#if proposalLink??]
+  [#if approvalLink??]
   You can access this ${proposal.activityType}'s approval by clicking [here](${approvalLink}).
   [#else]
   To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
