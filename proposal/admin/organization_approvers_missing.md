@@ -5,7 +5,7 @@ Proposal ${proposal.identifier}, ${proposal.principalInvestigator.displayName}, 
 [/@wrap]
 
 [#if proposalLink??]
-You can access this ${proposal.activityType} by clicking [here](${proposalLink}).
+Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
 To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
 [/#if]

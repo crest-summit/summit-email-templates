@@ -14,7 +14,7 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * Uploaded by: ${document.metadata.creator.reverseDisplayName?upper_case}
 
 [#if proposalLink??]
-You can access this ${proposal.activityType} by clicking [here](${proposalLink}).
+Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
 To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
 [/#if]
