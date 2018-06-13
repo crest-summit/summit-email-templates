@@ -15,7 +15,7 @@ The following question "Does the work involve human subjects research (e.g., sur
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
-To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
+To access this ${proposal.activityType}, go to [summit.vt.edu](http://summit.vt.edu).
 [/#if]
 
 ------------------------------------------------------------------------

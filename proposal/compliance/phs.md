@@ -24,7 +24,7 @@ To help you meet the deadlines outlined in the [Proposal Submission Policy and G
 [#if proposalLink??]
 **Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit and communicate with the assigned Pre-Award Associate for this ${proposal.activityType} should you have questions or need assistance.**
 [#else]
-**Please log into [Summit](summit.vt.edu) to communicate with the assigned Pre-Award Associate for this ${proposal.activityType}, should you have questions or need assistance with this ${proposal.activityType}.**
+**Please log into [Summit](http://summit.vt.edu) to communicate with the assigned Pre-Award Associate for this ${proposal.activityType}, should you have questions or need assistance with this ${proposal.activityType}.**
 [/#if]
 
 ------------------------------------------------------------------------

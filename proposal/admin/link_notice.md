@@ -15,7 +15,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Is this a limited submission?: ${proposal.opportunity.limitedSubmission}
 * Is this an unauthorized submission?: ${proposal.submission.unauthorized?string('Yes', 'No')}
 
-Please sign in to [Summit](summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
+Please sign in to [Summit](http://summit.vt.edu) (summit.vt.edu) to review this ${proposal.activityType}.
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
