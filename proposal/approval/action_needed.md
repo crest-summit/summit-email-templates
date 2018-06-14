@@ -20,6 +20,7 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [/#list]
   [/@wrap]
 
+  
 [#if approvalLink??]
 Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
 [#else]
