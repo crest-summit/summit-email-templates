@@ -15,11 +15,11 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * Co-Investigators:
   [@wrap left=2 right=72]
   [#list proposal.coInvestigators as investigator]
-  ${investigator.reverseDisplayName?upper_case}[#sep]; 
+  ${investigator.reverseDisplayName?upper_case}[#sep];
   [#else] N/A
   [/#list]
   [/@wrap]
-
+  
 [#if approvalLink??]
 Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
 [#else]
