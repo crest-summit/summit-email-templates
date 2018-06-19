@@ -7,7 +7,7 @@ Proposal ${proposal.identifier}, ${proposal.principalInvestigator.displayName}, 
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
-To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
+To access this ${proposal.activityType}, go to [summit.vt.edu](http://summit.vt.edu).
 [/#if]
 
 ------------------------------------------------------------------------
@@ -26,4 +26,4 @@ ${unit.displayName}[#sep];[/#sep]
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
-To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then User Preferences.
+To opt out of email notifications or update your email preferences, go to [Summit](http://summit.vt.edu), click your name in the upper right corner and then User Preferences.

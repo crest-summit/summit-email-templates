@@ -25,7 +25,7 @@ Please be advised that NASA funded research agreements are reviewed by the Offic
 [#if proposalLink??]
 * Please answer the following questions in the OESRC compliance subsection of the ${proposal.activityType}.  Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
-* Please answer the following questions in the OESRC compliance subsection of ${proposal.activityType} ${proposal.identifier} by going to [summit.vt.edu](summit.vt.edu).
+* Please answer the following questions in the OESRC compliance subsection of ${proposal.activityType} ${proposal.identifier} by going to [summit.vt.edu](http://summit.vt.edu).
 [/#if]
 * As defined in the OESRC Attachment B, Is this Fundamental Research?
 

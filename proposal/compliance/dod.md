@@ -25,7 +25,7 @@ Please be advised that DoD funded research agreements are reviewed by the Office
 [#if proposalLink??]
 * Please answer the following questions in the OESRC compliance subsection of the ${proposal.activityType}.  Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
-* Please answer the following questions in the OESRC compliance subsection of ${proposal.activityType} ${proposal.identifier} by going to [summit.vt.edu](summit.vt.edu).
+* Please answer the following questions in the OESRC compliance subsection of ${proposal.activityType} ${proposal.identifier} by going to [summit.vt.edu](http://summit.vt.edu).
 [/#if]
 * As defined in the OESRC Attachment A, Is this Fundamental Research?
 * If you like to include the "dual use" developmental items language described in Attachment A, either add a requirement to the OESRC Requirements section to Include Dual Use Language in Cover Letter or make a comment in Summit requesting it.

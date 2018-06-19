@@ -8,7 +8,7 @@ ${proposal.approval.disposition.authority.displayName} discarded approval of ${p
 [#if proposalLink??]
 Note: Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
 [#else]
-Note: Please navigate to the ${proposal.activityType} by going to [summit.vt.edu](summit.vt.edu) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
+Note: Please navigate to the ${proposal.activityType} by going to [summit.vt.edu](http://summit.vt.edu) to make the necessary corrections and re-route the ${proposal.activityType} for review and approvals.
 [/#if]
 
 [#else]
@@ -38,4 +38,4 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
-To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then User Preferences.
+To opt out of email notifications or update your email preferences, go to [Summit](http://summit.vt.edu), click your name in the upper right corner and then User Preferences.
