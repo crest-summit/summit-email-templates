@@ -1,7 +1,7 @@
 Subject: [Summit] 5 Business Day Deadline Reminder for ${proposal.activityType} ${proposal.identifier}
 
 [@wrap]
-${proposal.activityType} ${proposal.identifier} is 5 business days from the target deadline date identified in ${proposal.activityType}.
+${proposal.activityType} ${proposal.identifier} is 5 business days from the target deadline date identified in this ${proposal.activityType}.
 [/@wrap]
 
 ------------------------------------------------------------------------
@@ -19,7 +19,7 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [#else] N/A
   [/#list]
   [/@wrap]
-  
+
 [#if proposalLink??]
 To access this ${proposal.activityType}, click [here](${proposalLink}).
 [#else]
