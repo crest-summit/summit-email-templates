@@ -10,9 +10,9 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * Work Label: ${proposal.name}
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
-* Topic: ${topic}
+* Comment Topic: ${topic}
 * Comment by: ${commentBy}
-* Comment: ${comment} 
+* Comment: "${comment}" 
 
 [#if proposalLink??]
 To access this ${proposal.activityType}, click [here](${proposalLink}).
