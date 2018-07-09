@@ -1,4 +1,4 @@
-Subject: [Summit] Approval From ${organization.identifier} Needed for ${proposal.activityType} ${proposal.identifier}
+Subject: [Summit] Approval Reminder From ${organization.identifier} Needed for ${proposal.activityType} ${proposal.identifier}
 
 [@wrap]
 ${proposal.activityType} ${proposal.identifier} awaits your approval for submission to the sponsor.
@@ -29,4 +29,4 @@ To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
 
-To opt out of email notifications or update your email preferences, go to [Summit](summit.vt.edu), click your name in the upper right corner and then User Preferences.
+To opt out of email notifications or update your email preferences, go to [Summit](http://summit.vt.edu), click your name in the upper right corner and then User Preferences.
