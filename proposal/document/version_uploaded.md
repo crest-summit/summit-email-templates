@@ -1,27 +1,20 @@
-Subject: [Summit] Approval From ${organization.identifier} Needed for ${proposal.activityType} ${proposal.identifier}
+Subject: [Summit] File Version Upload Notice for ${proposal.identifier}
 
-[@wrap]
-${proposal.activityType} ${proposal.identifier} awaits your approval for submission to the sponsor.
-[/@wrap]
+You are receiving this notice because a new file version has been uploaded to ${proposal.activityType} ${proposal.identifier}.
 
-------------------------------------------------------------------------
 [@wrap]
 Full Title: ${proposal.fullTitle!"Untitled"}
 [/@wrap]
 
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 * Work Label: ${proposal.name}
-* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
-* Co-Investigators: 
-  [@wrap left=2 right=72]
-     [#list proposal.coInvestigators as investigator]
-  * ${investigator.reverseDisplayName?upper_case}
-  [#else] N/A
-  [/#list]
-  [/@wrap]
-  
-[#if approvalLink??]
-Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
+* Sponsor: ${proposal.sponsor.name}
+* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}  
+* File name: ${document.metadata.name}
+* Uploaded by: ${document.metadata.creator.reverseDisplayName?upper_case}
+
+[#if proposalLink??]
+Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
 To access this ${proposal.activityType}, go to [summit.vt.edu](http://summit.vt.edu).
 [/#if]

@@ -15,15 +15,15 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * Co-Investigators:
   [@wrap left=2 right=72]
   [#list proposal.coInvestigators as investigator]
-  ${investigator.reverseDisplayName?upper_case}[#sep];
+  * ${investigator.reverseDisplayName?upper_case}
   [#else] N/A
   [/#list]
   [/@wrap]
 
 [#if proposalLink??]
-To access this ${proposal.activityType}, click [here](${proposalLink}).
+Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
 [#else]
-To access this ${proposal.activityType}, log in to [summit.vt.edu](summit.vt.edu).
+To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
 [/#if]
 
 ------------------------------------------------------------------------
