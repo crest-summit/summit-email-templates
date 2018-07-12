@@ -1,7 +1,7 @@
-Subject: [Summit] 5 Business Day Deadline Reminder for ${proposal.activityType} ${proposal.identifier}
+Subject: [Summit] ${difference} Business Day Deadline Reminder for ${proposal.activityType} ${proposal.identifier}
 
 [@wrap]
-${proposal.activityType} ${proposal.identifier} is 5 business days from the target deadline date identified in this ${proposal.activityType}.
+${proposal.activityType} ${proposal.identifier} is ${difference} business days from the target deadline date identified in this ${proposal.activityType}.
 [/@wrap]
 
 ------------------------------------------------------------------------
@@ -15,15 +15,15 @@ Full Title: ${proposal.fullTitle!"Untitled"}
 * Co-Investigators:
   [@wrap left=2 right=72]
   [#list proposal.coInvestigators as investigator]
-  * ${investigator.reverseDisplayName?upper_case}
+  ${investigator.reverseDisplayName?upper_case}[#sep];
   [#else] N/A
   [/#list]
   [/@wrap]
 
 [#if proposalLink??]
-Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
+To access this ${proposal.activityType}, click [here](${proposalLink}).
 [#else]
-To access this ${proposal.activityType}, go to [summit.vt.edu](summit.vt.edu).
+To access this ${proposal.activityType}, log in to [summit.vt.edu](summit.vt.edu).
 [/#if]
 
 ------------------------------------------------------------------------
