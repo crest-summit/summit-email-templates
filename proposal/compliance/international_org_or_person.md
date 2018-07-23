@@ -2,7 +2,7 @@ Subject: [Summit] International Notice for ${proposal.activityType} ${proposal.i
 
 Greetings Proposal Team!
 
-As a result of your team answering yes to the OESRC question 'Will the research involve any International Organizations or Foreign Nationals who are NOT students or employees of VT?' you are receiving this email with a link to a document on OSP’s website.  This document, [What You May Not Know About International Research Projects](https://www.research.vt.edu/osp/files/special-issues-international-projects.docx), provides advance notice of special requirements you may encounter which could cause some delays in starting your research.  We strongly encourage you to follow this link and read this information.
+As a result of your team answering yes to the OESRC question "Will the research involve any International Organizations or Foreign Nationals who are NOT students or employees of VT?" you are receiving this email with a link to a document on OSP's website.  This document, [What You May Not Know About International Research Projects](https://www.research.vt.edu/osp/files/special-issues-international-projects.docx), provides advance notice of special requirements you may encounter which could cause some delays in starting your research.  We strongly encourage you to follow this link and read this information.
 
 ------------------------------------------------------------------------
 
