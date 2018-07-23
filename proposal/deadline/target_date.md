@@ -1,7 +1,7 @@
 Subject: [Summit] ${difference} Business Day Deadline Reminder for ${proposal.activityType} ${proposal.identifier}
 
 [@wrap]
-${proposal.activityType} ${proposal.identifier} is ${difference} business days from the target deadline date identified in this ${proposal.activityType}.
+${proposal.activityType} ${proposal.identifier} is ${difference} business day(s) from the target deadline date identified in this ${proposal.activityType}.
 [/@wrap]
 
 ------------------------------------------------------------------------
