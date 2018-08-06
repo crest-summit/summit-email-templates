@@ -21,7 +21,7 @@ Please be advised that DoD funded research agreements are reviewed by the Office
 
 **ACTION REQUIRED:**  
 
-* Review the [Attachment A: Memo to Faculty Proposing Research Funded by DoD](https://oesrc.researchcompliance.vt.edu/sites/oesrc.researchcompliance.vt.edu/files/attachment_a_dod_memo.pdf)
+* Review the [Attachment A: Memo to Faculty Proposing Research Funded by DoD](https://www.research.vt.edu/content/dam/research_vt_edu/oesrc/files/attachment_a_dod_memo.pdf)
 [#if proposalLink??]
 * Please answer the following questions in the OESRC compliance subsection of the ${proposal.activityType}.  Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
@@ -32,7 +32,7 @@ Please be advised that DoD funded research agreements are reviewed by the Office
 
 ------------------------------------------------------------------------
 
-If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC](http://www.oesrc.researchcompliance.vt.edu/Contacts/) directly.
+If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC](https://www.research.vt.edu/oesrc/contact-us.html) directly.
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.

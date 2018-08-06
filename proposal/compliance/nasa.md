@@ -21,7 +21,7 @@ Please be advised that NASA funded research agreements are reviewed by the Offic
 
 **ACTION REQUIRED:**  
 
-* Review the [Attachment B: Memo to Faculty Proposing Research Funded by NASA](http://oesrc.researchcompliance.vt.edu/sites/oesrc.researchcompliance.vt.edu/files/attachment_b_nasa_memo.pdf)
+* Review the [Attachment B: Memo to Faculty Proposing Research Funded by NASA](https://www.research.vt.edu/content/dam/research_vt_edu/oesrc/files/attachment_b_nasa_memo.pdf)
 [#if proposalLink??]
 * Please answer the following questions in the OESRC compliance subsection of the ${proposal.activityType}.  Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
 [#else]
@@ -33,7 +33,7 @@ If you have questions regarding the Restrictions on Funding Activities in China,
 
 ------------------------------------------------------------------------
 
-If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC](http://www.oesrc.researchcompliance.vt.edu/Contacts/) directly.
+If you choose not to include this language, it is likely that your project will have export control requirements due to sponsor imposed agreement terms or U.S. Government regulations.  If you have any questions regarding export control or fundamental research, please [contact the OESRC](https://www.research.vt.edu/oesrc/contact-us.html) directly.
 
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
