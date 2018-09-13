@@ -5,7 +5,7 @@ ${proposal.activityType} ${proposal.identifier} has been initiated.
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 * Work Label: ${proposal.name}
 * Sponsor: ${proposal.sponsor.name}
-* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName?upper_case}
+* Principal Investigator: ${proposal.principalInvestigator?upper_case}
 
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
