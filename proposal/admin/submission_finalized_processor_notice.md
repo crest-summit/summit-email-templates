@@ -6,7 +6,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Type of Work: ${proposal.activityType}
 * Work Label: ${proposal.name}
 * Sponsor Keywords: ${proposal.sponsor.keywords}
-* Principal Investigator: ${proposal.principalInvestigator.reverseDisplayName}
+* Principal Investigator: ${proposal.principalInvestigator.displayName}
 * Submitting Organization: ${proposal.submittingOrganization.name}
 * Sponsor: ${proposal.sponsor.name}
 * Comment: ${comment}
