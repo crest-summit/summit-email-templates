@@ -16,7 +16,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 [#if parentProposal??]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
-* Parent Work Label: ${parentProposal.proposalLabel}
+* Parent Work Label: ${parentProposal.name}
 [/#if]
 
 [#if proposalLink??]
