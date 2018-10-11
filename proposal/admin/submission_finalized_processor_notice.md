@@ -9,7 +9,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Principal Investigator: ${proposal.principalInvestigator.displayName}
 * Submitting Organization: ${proposal.submittingOrganization.name}
 * Sponsor: ${proposal.sponsor.name}
-* Comment: ${comment}
+* Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 * Assigned Pre Award: ${proposal.assignee.displayName}
 
