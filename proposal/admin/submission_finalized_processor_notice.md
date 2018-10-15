@@ -12,7 +12,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 * Assigned Pre Award: ${proposal.assignee.displayName}
-
+  
 [#if parentProposal??]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
