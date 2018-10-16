@@ -4,15 +4,13 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 
 * Work ID: ${proposal.identifier}
 * Type of Work: ${proposal.activityType}
-* Work Label: ${proposal.name}
-* Sponsor Keywords: ${proposal.sponsor.keywords}
-* Principal Investigator: ${proposal.principalInvestigator.displayName}
-* Submitting Organization: ${proposal.submittingOrganization.name}
-* Sponsor: ${proposal.sponsor.name}
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 * Assigned Pre Award: ${proposal.assignee.displayName}
-  
+* Sponsor Keywords: ${proposal.sponsor.keywords}
+* Principal Investigator: ${proposal.principalInvestigator.displayName}
+* Sponsor: ${proposal.sponsor.name}
+      
 [#if parentProposal??]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
