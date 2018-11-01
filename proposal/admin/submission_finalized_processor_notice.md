@@ -6,16 +6,17 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Type of Work: ${proposal.activityType}
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
-* Assigned Pre Award: ${proposal.assignee.displayName}
-* Sponsor Keywords: ${proposal.sponsor.keywords}
-* Principal Investigator: ${proposal.principalInvestigator.displayName}
-* Sponsor: ${proposal.sponsor.name}
-      
+
 [#if parentProposal??]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
 * Parent Work Label: ${parentProposal.name}
 [/#if]
+
+* Assigned Pre Award: ${proposal.assignee.displayName}
+* Sponsor: ${proposal.sponsor.name}
+* Principal Investigator: ${proposal.principalInvestigator.displayName}
+* Sponsor Keywords: ${proposal.sponsor.keywords}
 
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
