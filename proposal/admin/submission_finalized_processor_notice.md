@@ -3,7 +3,7 @@ Subject: [Summit] Processor Notice for ${proposal.identifier}
 You are receiving this notice because ${proposal.activityType} ${proposal.identifier} has transitioned from Open to Awaiting Banner and now requires the attention of the Processors.
 
 * Work ID: ${proposal.identifier}
-* Type of Work: [#if parentProposal?? && parentProposal.activityType == “Proposal”] Proposal (Revision) [#else] ${proposal.activityType} [/#if]
+* Type of Work: [#if parentProposal?? && parentProposal.activityType == "Proposal"] Proposal (Revision) [#else] ${proposal.activityType} [/#if]
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 
