@@ -1,0 +1,1 @@
+This is the default template sent to OESRC when a proposal meets criteria in the OESRC section.
