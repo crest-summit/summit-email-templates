@@ -26,5 +26,11 @@ Tangible Item Export: [#if tangibleItemExport??]${tangibleItemExport}[#else]N/A[
     ${comment.text}
 [/#list]
 
+[#if proposalLink??]
+Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
+[#else]
+To access this ${proposal.activityType}, go to [summit.vt.edu](http://summit.vt.edu).
+[/#if]
+
 ------------------------------------------------------------------------
 Please do not reply, this message is system generated.
