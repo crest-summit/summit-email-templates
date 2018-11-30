@@ -7,6 +7,9 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 
+[#list submissionComments as subComment] ${subComment.author.displayName} ${subComment.creationDate} ${subComment.text}
+[/#list]
+
 [#if isAdvanced == "true"]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
