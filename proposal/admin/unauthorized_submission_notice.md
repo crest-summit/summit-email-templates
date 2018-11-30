@@ -22,8 +22,8 @@ In addition to receiving approval from OSP management, an official proposal must
 [@wrap]
 1. Email the written explanation directly to the Director of Pre-Award, Mrs. Lauren Magruder, at lmagrude@vt.edu with a CC: to your assigned Pre-Award Associate
 2. Attach all documents that you originally submitted to the sponsor as your proposal (statement of work, budget, etc) to the corresponding proposal in Summit, so that all appropriate requirements can be obtained, Pre Award can review the proposal, and it can be routed for approval.
-3. Work in Summit with your assigned Pre-Award Associate to finalize an OSP approved budget for this project.
-4. Once an accepted and approved budget has been obtained and all outstanding requirements in Summit have been fulfilled, submit the proposal for routing in Summit.
+3. Work in Summit with your assigned Pre-Award Associate to finalize an OSP accepted budget for this project.
+4. Once an accepted budget has been obtained and all outstanding requirements in Summit have been fulfilled, submit the proposal for routing in Summit.
 [/@wrap]
 
 ---------------------------------------------------------------------
