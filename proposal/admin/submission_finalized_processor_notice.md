@@ -7,9 +7,6 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Comment: ${comment!"N/A"}
 * Comment BY: ${commentBy}
 
-[#list submissionComments as subComment] ${subComment.author.displayName} ${subComment.creationDate} ${subComment.text}
-[/#list]
-
 [#if isAdvanced == "true"]
 * Parent ID: ${parentProposal.identifier}
 * Parent Type of Work: ${parentProposal.activityType}
@@ -20,6 +17,9 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Sponsor: ${proposal.sponsor.name}
 * Principal Investigator: ${proposal.principalInvestigator.displayName}
 * Sponsor Keywords: ${proposal.sponsor.keywords}
+
+<!--- [#list submissionComments as subComment] ${subComment.author.displayName} ${subComment.creationDate} ${subComment.text}
+[/#list]  --->
 
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
