@@ -9,7 +9,7 @@ ${proposal.principalInvestigator.displayName},
 [/@wrap]
 
 [@wrap]
-Any award granted as a result of an unauthorized Proposal Submission is subject to rejection by the university. In order for the university to consider acceptance of an award resulting from an unauthorized submission, the Principal Investigator must submit an explanation to the Office of Sponsored Programs as to the nature of and reasons for the unauthorized submission. Awards will not be accepted until the explanation has been received/approved by by OSP management.
+Any award granted as a result of an unauthorized Proposal Submission is subject to rejection by the university. In order for the university to consider acceptance of an award resulting from an unauthorized submission, the Principal Investigator must submit an explanation to the Office of Sponsored Programs as to the nature of and reasons for the unauthorized submission. Awards will not be accepted until the explanation has been received/approved by OSP management.
 [/@wrap]
 
 [@wrap]
