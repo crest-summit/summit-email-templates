@@ -2,7 +2,7 @@ Subject: [Summit] Limited Submissions Notice for ${proposal.identifier}
 
 You are receiving this notice because proposal ${proposal.identifier} had the following answer:
 
-*Is this a limited submission?:  ${proposal.opportunity.limitedSubmission}
+* Is this a limited submission?:  ${proposal.opportunity.limitedSubmission}
 
 * Work Label: ${proposal.name}
 * Type of Work: ${proposal.activityType}
