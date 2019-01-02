@@ -18,8 +18,8 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 * Principal Investigator: ${proposal.principalInvestigator.displayName}
 * Sponsor Keywords: ${proposal.sponsor.keywords}
 
-<!--- [#list submissionComments as subComment] ${subComment.author.displayName} ${subComment.creationDate} ${subComment.text}
-[/#list]  --->
+[#list submissionComments as subComment] ${subComment.author.displayName} ${subComment.creationDate} ${subComment.text}
+[/#list] 
 
 [#if proposalLink??]
 Click [${proposal.identifier}](${proposalLink}) to access the ${proposal.activityType} in Summit.
