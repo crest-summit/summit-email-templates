@@ -20,7 +20,7 @@ You are receiving this notice because ${proposal.activityType} ${proposal.identi
 
 [#list submissionComments as subComment]
     ${subComment.author.displayName} - ${subComment.creationDate}
-    ${subComment.text} 
+    ${subComment.text}   
 
 [/#list]
 
