@@ -1,6 +1,6 @@
 Subject: [Summit] Limited Submissions Notice for ${proposal.identifier}
 
-You are receiving this notice because proposal ${proposal.identifier} had the following answer:
+You are receiving this notice because ${proposal.activityType} ${proposal.identifier} had the following answer:
 
 * Is this a limited submission?:  ${proposal.opportunity.limitedSubmission}
 
@@ -9,7 +9,7 @@ You are receiving this notice because proposal ${proposal.identifier} had the fo
 * Principal Investigator: ${proposal.principalInvestigator.displayName}
 * Submitting Organization: ${proposal.submittingOrganization.displayName}
 * Sponsor: ${proposal.sponsor.name}
-* Prime Sponsor: [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]NA[/#if]
+* Prime Sponsor: [#if (proposal.primeSponsor)??]${proposal.primeSponsor.name}[#else]N/A[/#if]
 * Deadline: ${proposal.deadline?string["EEE, MMM d, yyyy, hh:mm a zzz"]}
 * Assigned Pre-Award Associate: ${proposal.assignee.displayName}
 
