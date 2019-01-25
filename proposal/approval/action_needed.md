@@ -20,6 +20,10 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [/#list]
   [/@wrap]  
 
+* Direct Costs: ${proposal.budget.totalDirectCost}
+* Indirect Costs: ${proposal.budget.totalIndirectCost}
+* Cost Share Totals: ${proposal.budget.totalCostShare}  
+
 [#if approvalLink??]
 Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
 [#else]
