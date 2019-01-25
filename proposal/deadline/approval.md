@@ -19,6 +19,11 @@ Full Title: ${proposal.fullTitle!"Untitled"}
   [#else] N/A
   [/#list]
   [/@wrap]  
+  
+* Budget Totals:
+  * Direct Costs: $${proposal.budget.totalDirectCost}
+  * Indirect Costs: $${proposal.budget.totalIndirectCost}
+  * Cost Share: $${proposal.budget.totalCostShare}  
 
 [#if approvalLink??]
 Click [${proposal.identifier}](${approvalLink}) to access this ${proposal.activityType}'s approval in Summit.
