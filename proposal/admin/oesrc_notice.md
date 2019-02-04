@@ -15,16 +15,16 @@ You are receiving this notice because an OESRC question was marked "Yes" on ${pr
 International Org Or Person: [#if internationalOrgOrPerson??]${internationalOrgOrPerson}[#else]N/A[/#if]  
 
 [#list internationalOrgOrPersonComments as comment]
-    ${comment.author.displayName} - ${comment.creationDate}
-    ${comment.text}   
+${comment.author.displayName} - ${comment.creationDate}
+${comment.text}   
 
 [/#list]
 
 Tangible Item Export: [#if tangibleItemExport??]${tangibleItemExport}[#else]N/A[/#if]  
-  
+
 [#list tangibleItemExportComments as comment]
-    ${comment.author.displayName} - ${comment.creationDate}
-    ${comment.text}  
+${comment.author.displayName} - ${comment.creationDate}
+${comment.text}  
 
 [/#list]
 
