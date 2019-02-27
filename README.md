@@ -1,4 +1,4 @@
-# This repository is deprecated as of 02/13/2019
+# Deprecated on 02/27/2019. Do not use.
 
 summit-email-templates
 ----------------------
